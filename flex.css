@@ -1,0 +1,202 @@
+header {
+  display: flex;
+  width: 1600px;
+  height: 80px;
+  background-color: lightblue;
+  justify-content: space-between;
+  margin-right: 180px;
+  justify-content: space-around;
+  /* cursor: pointer; */
+  
+}
+header img{
+    cursor:pointer;
+    width: 100px;
+  
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 6px;
+}
+
+.nav ul li {
+  cursor: pointer;
+  padding: 15px;
+  font-size: 2em;
+  margin-left: 20px;
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+10,000000+100&0.65+17,0+100 */
+background: -moz-linear-gradient(left,  rgba(17, 11, 11, 0.65) 10%, rgba(0,0,0,0.65) 17%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 10%,rgba(0,0,0,0.65) 17%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(0,0,0,0.65) 10%,rgba(0,0,0,0.65) 17%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+
+border-radius: 10px 95px 0px 107px;
+-moz-border-radius: 10px 95px 0px 107px;
+-webkit-border-radius: 10px 95px 0px 107px;
+border: 0px solid #000000;
+
+
+}
+
+
+
+/* Sweep To Left */
+     
+  .nav ul li:hover, .nav ul li:focus, .nav ul li:active {
+    color: rgb(218, 207, 207);
+  }
+  .nav ul li:hover:before, .nav ul li:focus:before, .nav ul li:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  
+
+
+
+.BodySectionMain1 {
+  display: flex;
+  /* flex-direction: column; */
+  margin-top: 20px;
+  width: 1600px;
+  justify-content: space-between;
+}
+
+.BodySectionMain1-Left {
+  /* flex: 1.5; */
+  width: 700px;
+  height: 450px;
+  background-color: rosybrown;
+}
+.BodySectionMain1-Right {
+  /* flex: 1; */
+  margin-top: 15px;
+  margin-right: 20px;
+
+  width: 700px;
+  height: 400px;
+  background-color: rgb(180, 9, 9);
+}
+
+.BodySectionMain2 {
+  margin-top: 20px;
+
+  display: flex;
+  width: 1600px;
+  /* justify-content: space-around; */
+}
+.BodySectionMain2-left {
+  width: 250px;
+  height: 450px;
+  background-color: green;
+  flex: 1;
+}
+.BodySectionMain2-Middle {
+  width: 250px;
+  height: 450px;
+  background-color: rgb(0, 0, 0);
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.BodySectionMain2-Right {
+  flex: 1;
+  width: 250px;
+  height: 450px;
+  background-color: rgb(34, 7, 95);
+}
+
+.BodySectionMain-Header {
+  display: flex;
+  width: 1600px;
+}
+.BodySectionMain-Header h1 {
+  text-align: center;
+  color: hotpink;
+  font-size: 2em;
+}
+.BodySectionMain-Header p {
+  font-size: 1.5em;
+  color: indigo;
+  padding: 20px;
+
+}
+/* .BodySectionMain-Header-Left {
+}
+.BodySectionMain-Header-Middle {
+  margin: 0 10px 0 10px;
+}
+.BodySectionMain-Header-Right {
+} */
+
+.BodySectionMain-Header2 {
+  display: flex;
+  margin-top: 20px;
+  width: 1600px;
+}
+.BodySectionMain-Header2-Left {
+  width: 250px;
+  height: 450px;
+  background-color: green;
+  /* background-color: rgba(0, 128, 0, 0.438);s */
+  flex: 1;
+  order: 3;
+  margin: 0 20px 0 20px;
+}
+.BodySectionMain-Header2-Middle {
+  width: 250px;
+  height: 450px;
+  background-color: rgb(0, 0, 0);
+  flex: 1;
+  /* margin: 0 20px 0 20px; */
+  order: 1;
+}
+.BodySectionMain-Header2-Right {
+  flex: 1;
+  width: 250px;
+  height: 450px;
+  background-color: rgb(34, 7, 95);
+  order: 3;
+}
+
+.Footer {
+  margin-top: 20px;
+  display: flex;
+  width: 1600px;
+  height: 450px;
+  background-color: khaki;
+}
+.Footer h1 {
+  color: mediumslateblue;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.Footer li {
+  color: rgb(6, 179, 29);
+  font-size: 2em;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.FooterSection1 {
+  width: 500px;
+  height: 400px;
+}
+.FooterSection2 {
+  width: 500px;
+  height: 400px;
+}
+.FooterSection3 {
+  width: 500px;
+  height: 400px;
+}
+.FooterSection4 {
+  width: 500px;
+  height: 400px;
+}
